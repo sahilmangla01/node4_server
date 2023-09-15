@@ -1,0 +1,6 @@
+
+                                                BCRYPT
+bcrypt gives output in the form of promise so to go to next step we must first resolve our promise.
+for that we can simply use async and await or we can use bcrypt method hashSync .
+
+to generate the random saltstring for our ecryption of password we can simply use genSaltSync method of bcrypt .
